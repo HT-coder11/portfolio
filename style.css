@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(#ffd166, #06d6a0);
+    font-family: "Kanit", sans-serif;
+}
+
+#me_is_epic{
+    opacity: 90%;
+    border-radius: 400px;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(#ffd166, #06d6a0);
+}
+
+#takeProject{
+    background-color: #ef476f;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+}
+
+#name{
+    font-family: "Kanit", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 60px;
+    color:#26547c;
+}
+
+#intro{
+    padding: 100px;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+}
+
+
+
+.lnk{
+    margin-top: 13px;
+    width: 150px;
+    padding-top: 5px;
+    font-family: "Kanit", sans-serif;
+    font-size: 13px;
+}
+
+#projectInfo{
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+}
+
+
+#headingP{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+.projects{
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.project h5{
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+.project img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#P{
+    font-size: 22px;
+}
+
+.project img:hover{
+    transform: scale(1.1);
+    
+}
+
+.project h5:hover{
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+#google{
+    width: 100px;
+    height: 100px;
+}
+
+#gmail{
+    width: 150px;
+    height: 150px;
+}
+
+#contacts{
+    color: #bd4f6c;
+    text-decoration: underline;
+}
+
+.master{
+    font-size: 23.2px;
+}
